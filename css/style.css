@@ -1,0 +1,457 @@
+/*
+Theme Name: The7.2
+Theme URI: http://dream-theme.com/
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site â€“ big or small. From huge corporate portals to studio or personal sites â€“ The7 will become a great foundation for your next project!
+Version: 2.0.1
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+License URI: License.txt
+Tags: one-column, two-columns, right-sidebar, flexible-width, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, sticky-post, translation-ready
+*/
+
+@font-face {
+	font-family: 'VNF-Bodoni';
+	src: 	url('fonts/bodoni.eot?#iefix') format('embedded-opentype'),  
+			url('fonts/bodoni.ttf') format('truetype'), 
+			url("fonts/bodoni.otf") format("opentype"),
+			url('fonts/bodoni.woff') format('woff'), 
+			url('fonts/bodoni.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSansRegular.eot');
+    src: url('fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('fonts/OpenSansRegular.woff2') format('woff2'),
+         url('fonts/OpenSansRegular.woff') format('woff'),
+         url('fonts/OpenSansRegular.ttf') format('truetype'),
+         url('fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+h1, h2, h3, h4, h2 a {
+	font-family: 'VNF-Bodoni' !important;
+}
+
+html, div, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, body, button, input, select, textarea {
+	font-family: 'OpenSansRegular' !important;
+} 
+
+.anchor-dat-hen{
+  display: block;
+  height: 165px; /*same height as header*/
+  margin-top: -165px; /*same height as header*/
+  visibility: hidden;
+}
+
+.heading-banner .shortcode-banner-inside {
+	  display: block !important;
+}
+
+.logo-left #navigation {
+	padding-right: 40px;
+}
+
+
+.wpb_row {
+	margin-bottom: 0 !important;
+}
+body {
+	overflow-x: hidden;
+}
+
+#wpcf7-f105-p2-o2 input[type=text], #wpcf7-f105-p2-o2 input[type=email],#wpcf7-f105-p2-o2 .wpcf7-date {
+    width: 60%;
+    float: right;
+    height: 25px;
+    margin: 0;
+}
+#wpcf7-f105-p2-o2 textarea {
+  height: 100px;
+}
+#wpcf7-f105-p2-o2 td{
+	padding-top: 0 !important;
+}
+#wpcf7-f105-p2-o2 table td {
+  height: 25px !important;
+  vertical-align: top;
+}
+.stripe #wpcf7-f105-p2-o2 textarea.wpcf7-textarea {
+	width: 60% !important;
+  float: right !important;
+  height: 60px !important;
+  margin: 0 !important;
+}
+#wpcf7-f4-p18-o1 textarea{
+	height: 100px;
+} 
+
+
+.hr-thin {
+	width: 200px !important; 
+}
+
+#footer > .wf-wrap, #bottom-bar > .wf-wrap {
+width: 100% !important;
+}
+
+.shortcode_menu li a {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.shortcode_menu li  {
+  padding: 0 8px 0 8px !important;
+  border-right: 1px solid !important;
+  margin: 0 !important;
+}
+.wpcf7 .content table {
+margin: 0 !important;
+}
+
+.bg-full .shortcode-banner {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.table-chair tr td {
+  margin: 0;
+  padding: 0 !important;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.shortcode_menu li:first-child  {
+  border-left: 1px solid !important;
+}
+
+
+#bottom-bar {
+  margin-top: -82px;
+}
+#bottom-bar .bottom-text-block {
+  text-align: right !important;
+}
+#main-nav li.menu-item:not(:last-child) {
+  border-right: 1px solid #CCCCCC;
+  padding-right: 20px !important;
+  height: 30px !important;
+  min-height: 30px !important;
+  line-height: 30px !important; 
+  margin-right: 0 !important;
+}
+.popmake>.popmake-close {
+  z-index: 99999;
+}
+
+
+.shortcode-banner-bg.wf-table .shortcode-banner-inside{
+  -webkit-transition: all 600ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  transition: all 600ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+}
+
+.hover-effect .shortcode-banner-bg.wf-table:hover .shortcode-banner-inside{
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+#book-now, #menu-text {
+  padding: 10px 0;
+  top: 50%;
+  float: right;
+  z-index: 99;
+  position: absolute;
+  overflow: hidden;
+  right: 16px;
+  margin-top: 45px;
+  background-color: #939598; 
+  	width: 104px;
+	-webkit-transition: all 0.8s ease-out;
+	  -moz-transition: all 0.8s ease-out;
+	  -o-transition: all 0.8s ease-out;
+	  transition: all 0.8s ease-out;
+}
+#menu-text {
+	background: none !important;
+	color: #FFFFFF !important;
+	display: none;
+}
+.home #menu-text {
+	display: block;
+}
+#book-now a{
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+.home #book-now, .page-id-18 #book-now, .home #back-btn, .ajax-loader{
+  display: none;
+}
+#back-btn {
+  position: fixed;
+  bottom: 0;
+left:0;
+z-index: 9999999;
+top:50%;
+margin-top: -10px;
+}
+
+#text-8 .wpcf7-submit{
+    margin-left: -37px;
+    text-indent: -1000px;
+    width: 40px;
+    height: 30px;
+    border-radius: 0;
+    background: url(images/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    float: right;
+}
+ .shortcode-banner-inside .wpcf7-submit{
+    border: 1px solid;
+    padding: 2px 15px !important;
+    display: block;
+    margin-top: 10px;
+ }  
+
+#text-9 {
+  margin-left: -80px;
+}
+
+#text-8 .wpcf7-email {
+  width: 80% !important;
+  font-size: 10px; 
+}
+#text-8 {
+  text-align: center;
+  position: absolute;
+    bottom: -27px;
+}
+.scroll-top.on {
+    right: 43px !important;
+    bottom: 60px !important;
+}
+
+.blog .dt-format-gallery .dt-format-gallery-coll.full,
+.archive .dt-format-gallery .dt-format-gallery-coll.full,
+.search .dt-format-gallery .dt-format-gallery-coll.full
+{
+	display: none;
+}
+
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor {} 
+
+	.hamburger-icon img {
+		display: none;
+	}
+.book-now-click {
+	width: 100% !important;
+	padding: 0 !important;
+	 
+}
+.book-now-form input[type=text], .book-now-form input[type=email], .book-now-form input[type=date] {
+	width: 160px;
+}
+	#header #branding, .book-now-form{
+	  display: none;
+	}
+.book-now-form {
+	color: #FFFFFF !important;
+	margin-left: 30px;
+    padding-top: 5px;
+}
+.book-now-form .wpcf7-submit {
+	background: none !important;
+}
+.book-now-form span {
+	padding-right: 15px;
+}
+@media (max-width:1024px) { 
+
+	#menu-text {
+		display: none !important;
+	}
+
+	.book-now-form input[type=text], .book-now-form input[type=email], .book-now-form input[type=date] {
+		width: 200px;
+	}
+}
+
+@media (min-width:1024px) {
+	#header {
+	  top: 50%;
+	  margin-top: -45px;
+	  float: right;
+	  z-index: 2;
+	  width: 900px;
+	  position: absolute;
+	  overflow: hidden;
+	  -webkit-transition: all 0.8s ease-out;
+	  -moz-transition: all 0.8s ease-out;
+	  -o-transition: all 0.8s ease-out;
+	  transition: all 0.8s ease-out;
+	  z-index: 99999;
+	  right: -780px;
+
+	}
+
+ 	.header-click { 
+		width: 100% !important;
+	  right: 0 !important;
+	  z-index: 999999 !important;
+	}
+
+	.hamburger-click {
+		position: absolute;
+		right: 0;
+		margin-right: -50px;
+	}
+/*	#header:hover #branding, #header .hamburger-icon {
+	    -webkit-transition: all 0.8s ease-out;
+	    -moz-transition: all 0.8s ease-out;
+	    -o-transition: all 0.8s ease-out;
+	    transition: all 0.8s ease-out;
+	    display: block;
+	}*/
+
+
+
+#header .hamburger-icon {
+	cursor: pointer;
+}
+#header .hamburger-icon {
+	width:84px;
+	height: 90px;
+	background: url(images/ham-icon.png) no-repeat center center;
+	background-size: cover;
+	 -webkit-transition: all 0.8s ease-out;
+	    -moz-transition: all 0.8s ease-out;
+	    -o-transition: all 0.8s ease-out;
+	    transition: all 0.8s ease-out;
+}
+#header .hamburger-icon:hover {
+	background-image: url(images/ham-icon-expand.png);
+}
+.hamburger-click {
+	background-image: url(images/ham-icon-close.png) !important;
+
+}
+.hamburger-click:hover {
+	background-image: url(images/ham-icon-close.png) !important;
+
+}
+
+
+
+
+	.hamburger-icon img {
+	  height: 74px;
+	  padding-top: 7px;
+	  padding-bottom: 9px;
+	  display: block;
+	}
+	.hamburger-icon {
+	 margin-left: -30px;
+	}
+	#main-slideshow {
+	  margin: 15px;
+	}
+		.column-1 {
+	padding-right: 15px! important;
+	}
+	.column-2 {
+	padding-right: 7px! important;
+	}
+	.column-3 {
+	padding-left: 8px! important;
+	}
+	.dt-format-gallery a {
+	padding: 5px;
+	}
+	.single-portfolio .images-container {
+	  margin: -30px -85px -40px -85px;
+	}
+	.padding-left-20 {
+padding-left: 20px !important;
+}
+.padding-right-20 {
+padding-right: 20px !important;
+}
+
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 970px){  
+	.vc_col-sm-6 {
+		width: 100%;
+	}
+	.textwidget {
+	    text-align: center;
+	}
+	#text-9 {
+    margin-left: 0;
+	}
+	#bottom-bar {
+    margin-top: -20px;
+	}
+	#bottom-bar .bottom-text-block {
+    text-align: center !important;
+	}
+	#book-now {
+		top: 0 !important;
+		right: 45px;
+	}
+	.book-now-click {
+			padding-top: 30px !important;
+			right: 0 !important;
+	}
+	#text-8 {
+		position: relative;
+	}
+	#text-8 .wpcf7-email {
+    width: 90% !important;
+	}
+	.stripe #wpcf7-f105-p2-o2 textarea.wpcf7-textarea, #wpcf7-f105-p2-o2 input[type=text], #wpcf7-f105-p2-o2 input[type=email], #wpcf7-f105-p2-o2 .wpcf7-date {
+		width: 100% !important;
+		float: none !important;
+	}
+	#menu-text {
+		display: none;
+	}
+
+	.logo-left #navigation {
+		padding-right: 0 !important;
+	}
+	
+	h3 {
+		font-size: 20px !important;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	.shortcode-banner-inside {
+		overflow: initial !important;
+	}
+}
+@media screen and (max-width: 667px) {
+	#book-now {
+		right: 20px;
+	}
+			.book-now-form input[type=text], .book-now-form input[type=email], .book-now-form input[type=date] {
+		width: 85% !important;
+	}
+}
+.close-book-now {
+	background-image: url(images/close-book.png);
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
